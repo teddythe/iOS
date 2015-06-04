@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Dog_s_Age" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dog Years" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftY-Io-bke">
+                                <rect key="frame" x="261" y="72" width="79" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="KdR-iB-Woy"/>
+                                    <constraint firstAttribute="width" constant="79" id="c0s-aj-TmA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Enter your dog's age, in years" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rdx-fQ-7Ib">
+                                <rect key="frame" x="195" y="359" width="229" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="229" id="RKQ-Np-sJY"/>
+                                    <constraint firstAttribute="height" constant="21" id="flb-kF-PCB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="B94-cm-5eV">
+                                <rect key="frame" x="252" y="386" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="cCc-4Q-iz7"/>
+                                    <constraint firstAttribute="height" constant="30" id="ppW-Rb-15L"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="f95-du-ngt"/>
+                                </connections>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Dog" translatesAutoresizingMaskIntoConstraints="NO" id="xEt-IW-BOd">
+                                <rect key="frame" x="184" y="101" width="240" height="236"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="236" id="b4f-l8-OeE"/>
+                                    <constraint firstAttribute="width" constant="240" id="qHW-n5-rM2"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SJa-QX-JnL">
+                                <rect key="frame" x="270" y="417" width="61" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="61" id="3Ne-6n-nKa"/>
+                                    <constraint firstAttribute="height" constant="30" id="OE3-Sh-X4p"/>
+                                </constraints>
+                                <state key="normal" title="Find Age">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="findAge:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lJp-rP-8Ne"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqJ-Cd-YAC">
+                                <rect key="frame" x="146" y="332" width="308" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="233" id="5hV-9o-u5H"/>
+                                    <constraint firstAttribute="height" constant="21" id="6jZ-hE-XeQ"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="308" id="MfH-WM-dMG"/>
+                                    <constraint firstAttribute="width" constant="308" id="Wdy-bc-6PU"/>
+                                    <constraint firstAttribute="height" constant="21" id="pgs-jA-ll4"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="xf2-Re-IM1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="5hV-9o-u5H"/>
+                                        <exclude reference="6jZ-hE-XeQ"/>
+                                        <exclude reference="MfH-WM-dMG"/>
+                                        <exclude reference="xf2-Re-IM1"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SJa-QX-JnL" firstAttribute="top" secondItem="rdx-fQ-7Ib" secondAttribute="bottom" constant="49" id="3qL-tF-fya"/>
+                            <constraint firstAttribute="centerX" secondItem="SJa-QX-JnL" secondAttribute="centerX" id="3wh-sD-HSw"/>
+                            <constraint firstAttribute="centerX" secondItem="hqJ-Cd-YAC" secondAttribute="centerX" id="6Mp-8P-6QE"/>
+                            <constraint firstAttribute="centerX" secondItem="B94-cm-5eV" secondAttribute="centerX" id="7MN-on-tYC"/>
+                            <constraint firstItem="B94-cm-5eV" firstAttribute="top" secondItem="rdx-fQ-7Ib" secondAttribute="bottom" constant="26" id="7yU-ZX-bTX"/>
+                            <constraint firstItem="hqJ-Cd-YAC" firstAttribute="top" secondItem="ftY-Io-bke" secondAttribute="bottom" constant="239" id="8Km-CV-udD"/>
+                            <constraint firstAttribute="centerX" secondItem="xEt-IW-BOd" secondAttribute="centerX" id="9bH-5Q-ytN"/>
+                            <constraint firstItem="SJa-QX-JnL" firstAttribute="top" secondItem="B94-cm-5eV" secondAttribute="bottom" constant="1" id="AO8-Vy-J7F"/>
+                            <constraint firstAttribute="centerX" secondItem="B94-cm-5eV" secondAttribute="centerX" id="AuN-5p-eV8"/>
+                            <constraint firstAttribute="centerX" secondItem="hqJ-Cd-YAC" secondAttribute="centerX" id="M7l-Hd-P7s"/>
+                            <constraint firstItem="B94-cm-5eV" firstAttribute="top" secondItem="rdx-fQ-7Ib" secondAttribute="bottom" constant="6" id="MIH-zH-ovs"/>
+                            <constraint firstItem="B94-cm-5eV" firstAttribute="top" secondItem="rdx-fQ-7Ib" secondAttribute="bottom" constant="21" id="QFB-iU-dae"/>
+                            <constraint firstItem="rdx-fQ-7Ib" firstAttribute="top" secondItem="xEt-IW-BOd" secondAttribute="bottom" constant="22" id="QLV-9w-GW8"/>
+                            <constraint firstItem="ftY-Io-bke" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="52" id="R85-uK-9iv"/>
+                            <constraint firstAttribute="centerX" secondItem="ftY-Io-bke" secondAttribute="centerX" id="Rcf-Cb-GgZ"/>
+                            <constraint firstItem="xEt-IW-BOd" firstAttribute="top" secondItem="ftY-Io-bke" secondAttribute="bottom" constant="8" id="VLN-Wp-cEp"/>
+                            <constraint firstItem="SJa-QX-JnL" firstAttribute="top" secondItem="B94-cm-5eV" secondAttribute="bottom" constant="8" id="W83-2X-rIK"/>
+                            <constraint firstItem="B94-cm-5eV" firstAttribute="top" secondItem="rdx-fQ-7Ib" secondAttribute="bottom" constant="21" id="hOI-bP-hXE"/>
+                            <constraint firstItem="hqJ-Cd-YAC" firstAttribute="top" secondItem="B94-cm-5eV" secondAttribute="bottom" constant="8" id="klZ-SD-gLZ"/>
+                            <constraint firstAttribute="centerX" secondItem="rdx-fQ-7Ib" secondAttribute="centerX" id="m47-b5-Agk"/>
+                            <constraint firstAttribute="centerX" secondItem="B94-cm-5eV" secondAttribute="centerX" id="m7g-mw-s7g"/>
+                            <constraint firstAttribute="centerX" secondItem="hqJ-Cd-YAC" secondAttribute="centerX" id="qOb-wi-wbC"/>
+                            <constraint firstAttribute="centerX" secondItem="hqJ-Cd-YAC" secondAttribute="centerX" id="shi-4g-4ih"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="6Mp-8P-6QE"/>
+                                <exclude reference="M7l-Hd-P7s"/>
+                                <exclude reference="klZ-SD-gLZ"/>
+                                <exclude reference="qOb-wi-wbC"/>
+                                <exclude reference="7MN-on-tYC"/>
+                                <exclude reference="7yU-ZX-bTX"/>
+                                <exclude reference="AuN-5p-eV8"/>
+                                <exclude reference="QFB-iU-dae"/>
+                                <exclude reference="hOI-bP-hXE"/>
+                                <exclude reference="3qL-tF-fya"/>
+                                <exclude reference="W83-2X-rIK"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="ageDisp" destination="hqJ-Cd-YAC" id="ANu-W2-fWW"/>
+                        <outlet property="dog" destination="xEt-IW-BOd" id="2gL-z7-qIs"/>
+                        <outlet property="inputAge" destination="B94-cm-5eV" id="nQE-Tm-5BM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Dog" width="630" height="706"/>
+    </resources>
+</document>

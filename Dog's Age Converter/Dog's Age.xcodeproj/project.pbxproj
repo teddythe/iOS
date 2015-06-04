@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5835E2AB1ADE1A190073074D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5835E2AA1ADE1A190073074D /* AppDelegate.swift */; };
+		5835E2AD1ADE1A190073074D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5835E2AC1ADE1A190073074D /* ViewController.swift */; };
+		5835E2B01ADE1A190073074D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5835E2AE1ADE1A190073074D /* Main.storyboard */; };
+		5835E2B21ADE1A190073074D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5835E2B11ADE1A190073074D /* Images.xcassets */; };
+		5835E2B51ADE1A190073074D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5835E2B31ADE1A190073074D /* LaunchScreen.xib */; };
+		5835E2C11ADE1A190073074D /* Dog_s_AgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5835E2C01ADE1A190073074D /* Dog_s_AgeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5835E2BB1ADE1A190073074D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5835E29D1ADE1A180073074D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5835E2A41ADE1A180073074D;
+			remoteInfo = "Dog's Age";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5835E2A51ADE1A180073074D /* Dog's Age.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dog's Age.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5835E2A91ADE1A190073074D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5835E2AA1ADE1A190073074D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5835E2AC1ADE1A190073074D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5835E2AF1ADE1A190073074D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5835E2B11ADE1A190073074D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5835E2B41ADE1A190073074D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5835E2BA1ADE1A190073074D /* Dog's AgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dog's AgeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5835E2BF1ADE1A190073074D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5835E2C01ADE1A190073074D /* Dog_s_AgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog_s_AgeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5835E2A21ADE1A180073074D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5835E2B71ADE1A190073074D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5835E29C1ADE1A180073074D = {
+			isa = PBXGroup;
+			children = (
+				5835E2A71ADE1A180073074D /* Dog's Age */,
+				5835E2BD1ADE1A190073074D /* Dog's AgeTests */,
+				5835E2A61ADE1A180073074D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5835E2A61ADE1A180073074D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5835E2A51ADE1A180073074D /* Dog's Age.app */,
+				5835E2BA1ADE1A190073074D /* Dog's AgeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5835E2A71ADE1A180073074D /* Dog's Age */ = {
+			isa = PBXGroup;
+			children = (
+				5835E2AA1ADE1A190073074D /* AppDelegate.swift */,
+				5835E2AC1ADE1A190073074D /* ViewController.swift */,
+				5835E2AE1ADE1A190073074D /* Main.storyboard */,
+				5835E2B11ADE1A190073074D /* Images.xcassets */,
+				5835E2B31ADE1A190073074D /* LaunchScreen.xib */,
+				5835E2A81ADE1A180073074D /* Supporting Files */,
+			);
+			path = "Dog's Age";
+			sourceTree = "<group>";
+		};
+		5835E2A81ADE1A180073074D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5835E2A91ADE1A190073074D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5835E2BD1ADE1A190073074D /* Dog's AgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5835E2C01ADE1A190073074D /* Dog_s_AgeTests.swift */,
+				5835E2BE1ADE1A190073074D /* Supporting Files */,
+			);
+			path = "Dog's AgeTests";
+			sourceTree = "<group>";
+		};
+		5835E2BE1ADE1A190073074D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5835E2BF1ADE1A190073074D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5835E2A41ADE1A180073074D /* Dog's Age */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5835E2C41ADE1A190073074D /* Build configuration list for PBXNativeTarget "Dog's Age" */;
+			buildPhases = (
+				5835E2A11ADE1A180073074D /* Sources */,
+				5835E2A21ADE1A180073074D /* Frameworks */,
+				5835E2A31ADE1A180073074D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dog's Age";
+			productName = "Dog's Age";
+			productReference = 5835E2A51ADE1A180073074D /* Dog's Age.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5835E2B91ADE1A190073074D /* Dog's AgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5835E2C71ADE1A190073074D /* Build configuration list for PBXNativeTarget "Dog's AgeTests" */;
+			buildPhases = (
+				5835E2B61ADE1A190073074D /* Sources */,
+				5835E2B71ADE1A190073074D /* Frameworks */,
+				5835E2B81ADE1A190073074D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5835E2BC1ADE1A190073074D /* PBXTargetDependency */,
+			);
+			name = "Dog's AgeTests";
+			productName = "Dog's AgeTests";
+			productReference = 5835E2BA1ADE1A190073074D /* Dog's AgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5835E29D1ADE1A180073074D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = thet;
+				TargetAttributes = {
+					5835E2A41ADE1A180073074D = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					5835E2B91ADE1A190073074D = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 5835E2A41ADE1A180073074D;
+					};
+				};
+			};
+			buildConfigurationList = 5835E2A01ADE1A180073074D /* Build configuration list for PBXProject "Dog's Age" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5835E29C1ADE1A180073074D;
+			productRefGroup = 5835E2A61ADE1A180073074D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5835E2A41ADE1A180073074D /* Dog's Age */,
+				5835E2B91ADE1A190073074D /* Dog's AgeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5835E2A31ADE1A180073074D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5835E2B01ADE1A190073074D /* Main.storyboard in Resources */,
+				5835E2B51ADE1A190073074D /* LaunchScreen.xib in Resources */,
+				5835E2B21ADE1A190073074D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5835E2B81ADE1A190073074D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5835E2A11ADE1A180073074D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5835E2AD1ADE1A190073074D /* ViewController.swift in Sources */,
+				5835E2AB1ADE1A190073074D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5835E2B61ADE1A190073074D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5835E2C11ADE1A190073074D /* Dog_s_AgeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5835E2BC1ADE1A190073074D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5835E2A41ADE1A180073074D /* Dog's Age */;
+			targetProxy = 5835E2BB1ADE1A190073074D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5835E2AE1ADE1A190073074D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5835E2AF1ADE1A190073074D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5835E2B31ADE1A190073074D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5835E2B41ADE1A190073074D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5835E2C21ADE1A190073074D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5835E2C31ADE1A190073074D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5835E2C51ADE1A190073074D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dog's Age/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5835E2C61ADE1A190073074D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dog's Age/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5835E2C81ADE1A190073074D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dog's AgeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dog's Age.app/Dog's Age";
+			};
+			name = Debug;
+		};
+		5835E2C91ADE1A190073074D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dog's AgeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dog's Age.app/Dog's Age";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5835E2A01ADE1A180073074D /* Build configuration list for PBXProject "Dog's Age" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5835E2C21ADE1A190073074D /* Debug */,
+				5835E2C31ADE1A190073074D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5835E2C41ADE1A190073074D /* Build configuration list for PBXNativeTarget "Dog's Age" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5835E2C51ADE1A190073074D /* Debug */,
+				5835E2C61ADE1A190073074D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5835E2C71ADE1A190073074D /* Build configuration list for PBXNativeTarget "Dog's AgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5835E2C81ADE1A190073074D /* Debug */,
+				5835E2C91ADE1A190073074D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5835E29D1ADE1A180073074D /* Project object */;
+}
